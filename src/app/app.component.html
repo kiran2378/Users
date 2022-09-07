@@ -1,0 +1,6 @@
+<h1>Users Component</h1>
+<h1>Pass Data parent to sibling</h1>
+<app-parent [hero]="data"></app-parent>
+
+<h1>Pass Data sibling to parent</h1>
+<app-sibling (parentFunction) = "parentFunction($event)"></app-sibling>
